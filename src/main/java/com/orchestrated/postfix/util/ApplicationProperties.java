@@ -1,10 +1,7 @@
 package com.orchestrated.postfix.util;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URISyntaxException;
 import java.util.Properties;
 
 /**
@@ -39,16 +36,12 @@ public class ApplicationProperties {
 		Properties prop = new Properties();
 		InputStream input = null;
 		try {
-			File propertyFile = new File(this.getClass().getResource("/application.properties").toURI());
-			input = new FileInputStream(propertyFile);
+			input = getClass().getClassLoader().getResourceAsStream("application.properties");
 			prop.load(input);
 			
 		} catch (IOException ex) {
 			ex.printStackTrace();
-		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} finally {
+		}  finally {
 			if (input != null) {
 				try {
 					input.close();

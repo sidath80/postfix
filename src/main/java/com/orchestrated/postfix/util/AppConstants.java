@@ -16,7 +16,7 @@ public final class AppConstants {
 		// restrict instantiation
 	}
 	
-	public static final String SALARY_DATA_FILE_PATH="rsv.data.file.path";
+	public static final String RSV_DATA_FILE_PATH="rsv.data.file.path";
 	public static final String CELL_VALIDATION_RULE="[a-z]{1}[0-9]{1,}";
 		
 }
