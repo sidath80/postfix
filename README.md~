@@ -43,11 +43,7 @@ To RUN
 		   
 		3. To run the application : java -jar target/postfix-0.0.1-SNAPSHOT-jar-with-dependencies.jar  [input].csv [output].csv
 		
-		4. Both file should be place in the same folder (target/).
-
-		5. Test data file is in the src/main/resources/rsv.csv.
-
-             
+		5. Both file should be place in the same folder (target/)
 
 
 
