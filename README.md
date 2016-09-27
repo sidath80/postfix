@@ -12,13 +12,13 @@ This application read the csv cell and calculate according to the postfix notati
 Limitation : Input Data is not going to validate by the application.Sample input file is attached with this source.
 
 JDK Version notes
-========================================================================================
+================================================================================
 
 The postfix API supports JDK 1.6 or higher.  Note that I have currently tested this 
 implementation with  1.6 and 1.7.
 
 Assumptions 
-=======================================================================================
+================================================================================
 		1.  Both Input csv file and the application jar file should be in the same location(Folder). 
 		
 		2. Input csv file should be contains integer value, operator or cell identification number(Eg:b2)
@@ -29,13 +29,13 @@ Assumptions
 		
 		5. Latest version of the code available at the 
 		
-			Fetch URL: https://github.com/sidath80/payslip.git
-  			Push  URL: https://github.com/sidath80/payslip.git
-  			HEAD branch: master
-  			Remote branch: master tracked
+			* remote origin
+  				Fetch URL: https://github.com/sidath80/postfix.git
+  				Push  URL: https://github.com/sidath80/postfix.git
+  				HEAD branch: postfixImpl
 			
 To RUN
-==============================================================================================
+================================================================================
 
 		1. Dependencies: Java(JDK 1.6 or higher)/Maven(Version 3 or Higher). 
 		
